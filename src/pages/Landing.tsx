@@ -75,8 +75,9 @@ const Landing: React.FC = () => {
             and skip the wait with our intelligent ordering platform.
           </p>
 
+          {/* Feature tags - hidden on mobile, shown on larger screens */}
           <div 
-            className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center mb-10"
+            className="hidden sm:flex flex-row gap-6 justify-center items-center mb-10"
             style={{
               transform: `translateY(${scrollY * 0.02}px)`,
             }}
