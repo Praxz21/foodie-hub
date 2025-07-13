@@ -27,18 +27,18 @@ const Landing: React.FC = () => {
       <header 
         className="glass-morphism border-b border-black/10 dark:border-white/15 fixed top-0 left-0 right-0 z-50"
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-6 mb-2 sm:mb-0">
           <div className="flex items-center justify-between">
             <div 
               className="flex items-center group"
             >
-              <div className="w-20 h-20 flex items-center justify-center mr-4 group-hover:scale-110 transition-all duration-500 relative overflow-hidden glass-morphism rounded-2xl">
-                <Coffee className="w-12 h-12 text-orange-500" />
+              <div className="w-12 h-12 sm:w-20 sm:h-20 flex items-center justify-center mr-3 sm:mr-4 group-hover:scale-110 transition-all duration-500 relative overflow-hidden glass-morphism rounded-xl sm:rounded-2xl">
+                <Coffee className="w-6 h-6 sm:w-12 sm:h-12 text-orange-500" />
                 <div className="absolute inset-0 bg-gradient-to-r from-orange-500/10 to-red-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-2xl" />
               </div>
               <div>
-                <span className="text-2xl sm:text-3xl font-bold gradient-text tracking-wider">ChummaOrder</span>
-                <div className="text-sm text-gray-700 dark:text-gray-400 font-medium">They queue. We cruise</div>
+                <span className="text-xl sm:text-2xl md:text-3xl font-bold gradient-text tracking-wider">ChummaOrder</span>
+                <div className="text-xs sm:text-sm text-gray-700 dark:text-gray-400 font-medium">They queue. We cruise</div>
               </div>
             </div>
             
