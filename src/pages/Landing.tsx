@@ -32,8 +32,8 @@ const Landing: React.FC = () => {
             <div 
               className="flex items-center group"
             >
-              <div className="w-12 h-12 sm:w-20 sm:h-20 flex items-center justify-center mr-3 sm:mr-4 group-hover:scale-110 transition-all duration-500 relative overflow-hidden glass-morphism rounded-xl sm:rounded-2xl">
-                <Coffee className="w-6 h-6 sm:w-12 sm:h-12 text-orange-500" />
+              <div className="w-14 h-14 sm:w-20 sm:h-20 flex items-center justify-center mr-3 sm:mr-4 group-hover:scale-110 transition-all duration-500 relative overflow-hidden glass-morphism rounded-xl sm:rounded-2xl">
+                <Coffee className="w-7 h-7 sm:w-12 sm:h-12 text-orange-500" />
                 <div className="absolute inset-0 bg-gradient-to-r from-orange-500/10 to-red-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-2xl" />
               </div>
               <div>
