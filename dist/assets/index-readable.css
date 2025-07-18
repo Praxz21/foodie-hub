@@ -1,0 +1,223 @@
+/* This is a readable version of the minified CSS bundle */
+/* The actual minified file (index-COPxu7Xz.css) contains all this CSS compressed */
+
+/* Your bundled CSS includes: */
+
+/* 1. TAILWIND CSS BASE STYLES */
+/* Reset styles, normalize, and base utilities */
+
+/* 2. TAILWIND CSS COMPONENTS */
+/* Pre-built component classes */
+
+/* 3. TAILWIND CSS UTILITIES */
+/* All utility classes like flex, grid, colors, spacing, etc. */
+
+/* 4. YOUR CUSTOM STYLES from src/index.css */
+
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Global styles */
+* {
+  font-family: 'Inter', 'Poppins', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+/* Glass morphism effects */
+.glass-morphism {
+  background: linear-gradient(135deg, 
+    rgba(255, 255, 255, 0.95) 0%, 
+    rgba(255, 255, 255, 0.85) 100%);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  transition: all 0.3s ease;
+}
+
+/* Dark mode glass morphism */
+.dark .glass-morphism {
+  background: linear-gradient(135deg, 
+    rgba(0, 0, 0, 0.9) 0%, 
+    rgba(0, 0, 0, 0.7) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+/* Modern button styles */
+.modern-button {
+  background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(249, 115, 22, 0.3);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  color: white;
+  box-shadow: 
+    0 4px 20px rgba(249, 115, 22, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+/* Authentication form styles */
+.auth-form-container {
+  background: linear-gradient(135deg, 
+    rgba(255, 255, 255, 0.98) 0%, 
+    rgba(255, 255, 255, 0.92) 100%);
+  backdrop-filter: blur(40px);
+  border: 2px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 
+    0 25px 60px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  transition: all 0.4s ease;
+  color: #1f2937;
+}
+
+/* Modern input styles */
+.modern-input {
+  background: linear-gradient(135deg, 
+    rgba(255, 255, 255, 0.95) 0%, 
+    rgba(255, 255, 255, 0.85) 100%);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  color: #1f2937;
+  box-shadow: 
+    inset 0 2px 4px rgba(0, 0, 0, 0.05),
+    0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+/* Status color classes */
+.status-pending {
+  background: linear-gradient(135deg, 
+    rgba(251, 191, 36, 0.2) 0%, 
+    rgba(251, 191, 36, 0.1) 100%);
+  border: 1px solid rgba(251, 191, 36, 0.4);
+  color: #d97706;
+  backdrop-filter: blur(20px);
+}
+
+.status-processing {
+  background: linear-gradient(135deg, 
+    rgba(249, 115, 22, 0.2) 0%, 
+    rgba(249, 115, 22, 0.1) 100%);
+  border: 1px solid rgba(249, 115, 22, 0.4);
+  color: #ea580c;
+  backdrop-filter: blur(20px);
+}
+
+.status-ready {
+  background: linear-gradient(135deg, 
+    rgba(34, 197, 94, 0.2) 0%, 
+    rgba(34, 197, 94, 0.1) 100%);
+  border: 1px solid rgba(34, 197, 94, 0.4);
+  color: #16a34a;
+  backdrop-filter: blur(20px);
+}
+
+/* Gradient text effect */
+.gradient-text {
+  background: linear-gradient(135deg, #f97316, #ea580c, #dc2626);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradient-shift 3s ease-in-out infinite;
+}
+
+/* Modern gradient background */
+.modern-gradient {
+  background: 
+    linear-gradient(135deg, #ffffff 0%, #f9fafb 25%, #f3f4f6 50%, #f9fafb 75%, #ffffff 100%);
+  position: relative;
+}
+
+.dark .modern-gradient {
+  background: 
+    linear-gradient(135deg, #000000 0%, #111827 25%, #1f2937 50%, #111827 75%, #000000 100%);
+}
+
+/* Toast notification styles */
+.toast-success {
+  background: linear-gradient(135deg, 
+    rgba(34, 197, 94, 0.2) 0%, 
+    rgba(34, 197, 94, 0.1) 100%);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(34, 197, 94, 0.4);
+  color: #16a34a;
+}
+
+.toast-error {
+  background: linear-gradient(135deg, 
+    rgba(239, 68, 68, 0.2) 0%, 
+    rgba(239, 68, 68, 0.1) 100%);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(239, 68, 68, 0.4);
+  color: #dc2626;
+}
+
+/* Animation keyframes */
+@keyframes gradient-shift {
+  0%, 100% { 
+    background-position: 0% 50%;
+  }
+  50% { 
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes float {
+  0%, 100% { 
+    transform: translateY(0px);
+  }
+  50% { 
+    transform: translateY(-10px);
+  }
+}
+
+/* Hover effects */
+.hover-lift {
+  transition: all 0.4s ease;
+  transform-style: preserve-3d;
+}
+
+.hover-lift:hover {
+  transform: translateY(-8px) rotateX(2deg) rotateY(2deg);
+  box-shadow: 
+    0 20px 40px rgba(0, 0, 0, 0.1),
+    0 0 40px rgba(249, 115, 22, 0.2);
+}
+
+/* Responsive design utilities */
+.responsive-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+@media (max-width: 640px) {
+  .responsive-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+/* And thousands more utility classes from Tailwind CSS... */
+/* The minified version contains all Tailwind utilities compressed */
